@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name . portfile</title>
+    <style>
+        boby {
+            font-fonfly: Arial,sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(184, 150, 0); 
+        }
+
+        header {
+            background-color: rgb(255, 254, 255);
+            color: rgb(10, 29, 29);
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background-color: aliceblue;
+            color: rgb(13, 37, 37);
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li .{
+            text-decoration: none;
+            color: rgb(28, 48, 48);
+        }
+
+        .section-content {
+            background-color: rgb(245, 245, 248);
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .download-button {
+            background-color: aliceblue;
+            color: rgb(24, 36, 36);
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .download-button:hover {
+            background-color: aliceblue;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: aliceblue;
+            color: rgb(35, 53, 53);
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+     </style>
+</head>
+<boby>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="Swathi M.jpeg.jpeg" alt="Your profile picture" class="profile-picture">
+            <h1>Swathimurugaiyan</h1>
+            <p>passionate on learning </p> 
+        </div>
+    </header>
+    
+    <nav>
+        </ul>
+             <li><a href="#about">About</a></li>
+             <li><a href="#education">Education</a></li>
+             <li><a href="#projects">Projects</a></li>
+             <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>Hello Everyone! This is Swathi M and i am a Computer Application .</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+           <h2>BCA</h2>
+           <p>Shree Raghavendra Arts And Science College</p> 
+        </div>
+    </section>
+
+    <section id="Projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">project 1</a></li>
+                <li><a href="#">project 2</a></li>
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <center>
+         <div class="section-content">
+            <h2>Resume</h2>
+            <a href=d:\swathi\Profile.html\SWATHI M resume.docx>https://docs.google.com/document/d/12jycLWSVGStAKx7UTAhnr2OGberfx4wJ/edit</a>
+         </div>   
+        </center>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Swathimurugaiyan</p>
+    </footer>
+
+    <script>
+        // smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor =>){
+            anchor.addEventListener('click',function(e)) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementsById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo( {
+                    }
+                    )
+                }
+        }
+            }
+    </script>
+    </boby>
+    </html>
